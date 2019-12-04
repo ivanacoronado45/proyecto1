@@ -1,0 +1,67 @@
+.container{
+    DISPLAY: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    background-color: mistyrose;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width:1000px;
+    margin: -1% auto auto auto;
+
+}
+.header{
+    width: 100%;
+    grid-column: 1 /4;
+    height: 486px;
+    background-image: url(../img/malefica.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color:brown;
+}
+.menu{
+    overflow: hidden;
+    grid-column: 1/4;
+    background-color:turquoise;
+
+}
+.menu li{
+    float: left;
+    display: block;
+    color: red
+    text-align: center;
+    padding: 0px 20px 20px 0px;
+    text-decoration: none;
+}
+body{
+    background-color: lightcoral;
+}
+h4{
+    width: 100%;
+    padding: 0px 10px 20px 20px;
+    color: black;
+}
+.relleno{
+    color: black;
+    padding: 0% 0% 0% 0%;
+    grid-column:1/4;
+}
+
+.comida{
+    color:black;
+    grid-column: 1/4;
+    padding: 20px 100px 20px 90px;
+}
+
+.aloo{
+    color: black;
+    grid-column: 1/4;
+    padding: 20px 100px 20px 100px; 
+}
+ .comida h4{
+     font-size: 30px;
+ }
+
+ .pie{
+     grid-column: 1/4;
+     background-color:honeydew
+     column-rule: wheat;
+ }
